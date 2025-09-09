@@ -15,11 +15,11 @@ This a bash-based helper script that will allow users to gain information about 
 ## How to Start
 1. Clone the repo
 ```bash
-git clone #the repo address
+git clone git@github.com:Justetete/Computer-Process-Management-Toolkit.git
 ```
 2. redirect the folder of script
 ```bash
-cd COMP30640-Operating-Systems
+cd Computer-Process-Management-Toolkit
 ```
 3. Run script
 ```bash
