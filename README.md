@@ -1,19 +1,21 @@
-# Process Management Toolkit🛠️
+# Process Management Toolkit 🛠️
 
-## Project Overview
+## Project Overview 💡
 This is a **bash-based helper script** designed to be a simple yet effective tool for managing and gaining insights into system processes. It provides a user-friendly, menu-driven interface, allowing for easy process inquiry, signal control, and logging. The script is an ideal utility for system administrators, developers, or anyone who needs to quickly monitor and interact with running processes.
 
-## Key Features🔮
-- **Interactive Menu**: A clear and intuitive menu guides users through all available functionalities, making it easy to navigate.
-- **Comprehensive Process Inquiry**:
+![](https://raw.githubusercontent.com/Justetete/PicGo-Photo-Cloud/main/Screenshot%202025-09-09%20at%2022.35.32.png)
+
+## Key Features 🔮
+- 🟩 **Interactive Menu**: A clear and intuitive menu guides users through all available functionalities, making it easy to navigate.
+- 🟦 **Comprehensive Process Inquiry**:
     - **User-Specific Processes**: Display detailed information for processes owned by the current user.
     - **All System Processes**: View a complete list of all running processes on the system.
     - **Process Search**: Find specific processes by name or PID (Process ID).
-- **Process Control**: Send various signals (e.g., `SIGKILL`, `SIGTERM`) to processes by their PID to terminate, stop, or manage them.
-- **Session Logging**: Track all signals sent to processes during a session and save the log to a file for future reference.
-- **Status Legend**: A color-coded legend helps users quickly identify the state of each process (e.g., Running, Sleeping, Zombie).
+- 🟨 **Process Control**: Send various signals (e.g., `SIGKILL`, `SIGTERM`) to processes by their PID to terminate, stop, or manage them.
+- 🟪 **Session Logging**: Track all signals sent to processes during a session and save the log to a file for future reference.
+- 🟥 **Status Legend**: A color-coded legend helps users quickly identify the state of each process (e.g., Running, Sleeping, Zombie).
 
-## How to Start🚀
+## How to Start 🚀
 1. Clone the repository:
 ```bash
 git clone git@github.com:Justetete/Computer-Process-Management-Toolkit.git
