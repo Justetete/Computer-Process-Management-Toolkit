@@ -1,32 +1,38 @@
-# Process Management Toolkit
+# Process Management Toolkit🛠️
 
 ## Project Overview
-This a bash-based helper script that will allow users to gain information about the processes running on the system.
+This is a **bash-based helper script** designed to be a simple yet effective tool for managing and gaining insights into system processes. It provides a user-friendly, menu-driven interface, allowing for easy process inquiry, signal control, and logging. The script is an ideal utility for system administrators, developers, or anyone who needs to quickly monitor and interact with running processes.
 
-## Features
-- Friendly GUI menu to show all functionality to users
-- Processes inquery
-    - Display information about processes (includs Name, PID, CPU time, etc.)
-    - Allow users to search process details by certian users or PID
-- Signal control to the process
-- Log Display
-- Error report and control
+## Key Features🔮
+- **Interactive Menu**: A clear and intuitive menu guides users through all available functionalities, making it easy to navigate.
+- **Comprehensive Process Inquiry**:
+    - **User-Specific Processes**: Display detailed information for processes owned by the current user.
+    - **All System Processes**: View a complete list of all running processes on the system.
+    - **Process Search**: Find specific processes by name or PID (Process ID).
+- **Process Control**: Send various signals (e.g., `SIGKILL`, `SIGTERM`) to processes by their PID to terminate, stop, or manage them.
+- **Session Logging**: Track all signals sent to processes during a session and save the log to a file for future reference.
+- **Status Legend**: A color-coded legend helps users quickly identify the state of each process (e.g., Running, Sleeping, Zombie).
 
-## How to Start
-1. Clone the repo
+## How to Start🚀
+1. Clone the repository:
 ```bash
 git clone git@github.com:Justetete/Computer-Process-Management-Toolkit.git
 ```
-2. redirect the folder of script
+2. Navigate to the project directory:
 ```bash
 cd Computer-Process-Management-Toolkit
 ```
-3. Run script
+3. Run the script:
 ```bash
 ./bash-helper.sh
 ```
+***Note***: You might need to make the script executable first with `chmod +x bash-helper.sh`.
 
-## 🤝 Contributing
+## Technology Stack
+- **Bash**: The entire toolkit is built using Bash scripting, leveraging standard Linux commands like `ps` and `kill`.
+- **Terminal Colors**: The script uses ANSI color codes to provide a more readable and visually appealing output.
+
+## Contributing 🤝
 We welcome contributions! 🎉 If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
@@ -38,7 +44,7 @@ We welcome contributions! 🎉 If you'd like to contribute, please follow these 
 
 3. Commit your changes:
    ```bash
-   git commit -m "Add your awesome feature"
+   git commit -m "feat: Add your awesome feature"
    ```
 
 4. Push to the branch:
@@ -46,4 +52,4 @@ We welcome contributions! 🎉 If you'd like to contribute, please follow these 
    git push origin feature/your-feature-name
    ```
 
-5. Open a pull request. 🚀
+5. Open a Pull Request to the `main` branch of this repository. 🚀
