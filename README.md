@@ -3,7 +3,8 @@
 ## Project Overview 💡
 This is a **bash-based helper script** designed to be a simple yet effective tool for managing and gaining insights into system processes. It provides a user-friendly, menu-driven interface, allowing for easy process inquiry, signal control, and logging. The script is an ideal utility for system administrators, developers, or anyone who needs to quickly monitor and interact with running processes.
 
-![](https://raw.githubusercontent.com/Justetete/PicGo-Photo-Cloud/main/Screenshot%202025-09-09%20at%2022.35.32.png)
+<div>![](https://raw.githubusercontent.com/Justetete/PicGo-Photo-Cloud/main/Screenshot%202025-09-09%20at%2022.35.32.png)</div>
+
 
 ## Key Features 🔮
 - 🟩 **Interactive Menu**: A clear and intuitive menu guides users through all available functionalities, making it easy to navigate.
